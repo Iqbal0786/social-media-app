@@ -29,6 +29,19 @@ export default function Profile() {
                     <Typography>Kemito </Typography>
                     <Typography sx={{fontSize:"15px" , color:"gray"}}>UI/UX Designer</Typography>
                 </Box>
+
+                <Box sx={{width:"70%" , height:"70px" , border:"1px solid red", position:"absolute" , top:"150%" ,left:"10%" , display:"flex",justifyContent:"space-between"}}>
+                 <Box sx={{width:"30%"}}>
+                 <Typography sx={{fontSize:"20px", fontWeight:"bold"}}> 11K</Typography>
+                 <Typography sx={{fontSize:"14px", color:"gray"}}>Followeres</Typography>
+                 </Box>
+
+                 <Box sx={{width:"30%"}}>
+                 <Typography sx={{fontSize:"20px", fontWeight:"bold"}}> 1.4K</Typography>
+                 <Typography sx={{fontSize:"14px", color:"gray"}}>Following</Typography>
+
+                 </Box>
+                </Box>
             </Box>
         </Box>
       </Box>
