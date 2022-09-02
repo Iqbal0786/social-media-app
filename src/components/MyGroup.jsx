@@ -23,23 +23,47 @@ export default function MyGroup() {
           <MoreHorizIcon />
         </Box>
 
-        <Box sx={{ width: "100%", height: "90px" ,display:"flex" }}>
+        <Box sx={{ width: "100%", height: "90px", display: "flex" }}>
           <Box
-            sx={{ width: "30px", height: "30px", backgroundColor: "gray" , borderRadius:"8px" , marginLeft:"10px" }}
+            sx={{
+              width: "30px",
+              height: "30px",
+              backgroundColor: "gray",
+              borderRadius: "8px",
+              marginLeft: "10px",
+            }}
           ></Box>
-          <Typography sx={{marginLeft:"10px" , marginTop:"4px"}}>Hello User</Typography>
+          <Typography sx={{ marginLeft: "10px", marginTop: "4px" }}>
+            Hello User
+          </Typography>
         </Box>
-        <Box sx={{ width: "100%", height: "90px" ,display:"flex" }}>
+        <Box sx={{ width: "100%", height: "90px", display: "flex" }}>
           <Box
-            sx={{ width: "30px", height: "30px", backgroundColor: "gray" , borderRadius:"8px" , marginLeft:"10px" }}
+            sx={{
+              width: "30px",
+              height: "30px",
+              backgroundColor: "gray",
+              borderRadius: "8px",
+              marginLeft: "10px",
+            }}
           ></Box>
-          <Typography sx={{marginLeft:"10px" , marginTop:"4px"}}>Hello User</Typography>
+          <Typography sx={{ marginLeft: "10px", marginTop: "4px" }}>
+            Hello User
+          </Typography>
         </Box>
-        <Box sx={{ width: "100%", height: "90px" ,display:"flex" }}>
+        <Box sx={{ width: "100%", height: "90px", display: "flex" }}>
           <Box
-            sx={{ width: "30px", height: "30px", backgroundColor: "gray" , borderRadius:"8px" , marginLeft:"10px" }}
+            sx={{
+              width: "30px",
+              height: "30px",
+              backgroundColor: "gray",
+              borderRadius: "8px",
+              marginLeft: "10px",
+            }}
           ></Box>
-          <Typography sx={{marginLeft:"10px" , marginTop:"4px"}}>Hello User</Typography>
+          <Typography sx={{ marginLeft: "10px", marginTop: "4px" }}>
+            Hello User
+          </Typography>
         </Box>
       </Box>
     </>

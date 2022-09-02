@@ -11,7 +11,8 @@ export default function MainContent() {
      <Story/>
      <Story/>
      <Story/>
-     <Story/>
+  
+     
     </Box>
             
     </Box> 
