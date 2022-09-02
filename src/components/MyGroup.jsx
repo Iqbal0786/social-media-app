@@ -23,7 +23,7 @@ export default function MyGroup() {
           <MoreHorizIcon />
         </Box>
 
-        <Box sx={{ width: "100%", height: "90px", display: "flex" }}>
+        <Box sx={{ width: "100%", height: "90px", display: "flex" , marginBottom:"-40px" }}>
           <Box
             sx={{
               width: "30px",
@@ -37,7 +37,7 @@ export default function MyGroup() {
             Hello User
           </Typography>
         </Box>
-        <Box sx={{ width: "100%", height: "90px", display: "flex" }}>
+        <Box sx={{ width: "100%", height: "90px", display: "flex" , marginBottom:"-40px" }}>
           <Box
             sx={{
               width: "30px",
