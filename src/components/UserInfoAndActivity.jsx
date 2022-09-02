@@ -6,7 +6,7 @@ export default function UserInfoAndActivity() {
   return (
     <>
     
-    <Box sx={{width:"25%" , heigth:"100%" , border:"1px solid blue"}}>
+    <Box sx={{width:"25%" , heigth:"100%" }}>
       <Profile/>
             
      </Box>  

@@ -19,7 +19,6 @@ export default function Profile() {
             width: "90%",
             height: "100%",
             margin: "auto",
-            border: "1px solid red",
             marginTop: "15px",
             position: "relative",
           }}
@@ -30,6 +29,7 @@ export default function Profile() {
               alt=""
               width={"100%"}
               height={"100%"}
+              style={{borderRadius:"9px" , marginTop:"10px"}}
             />
             <Box
               sx={{
@@ -53,7 +53,6 @@ export default function Profile() {
               sx={{
                 width: "70%",
                 height: "70px",
-                border: "1px solid red",
                 position: "absolute",
                 top: "150%",
                 left: "10%",
