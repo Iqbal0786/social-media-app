@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { TextField, Typography } from "@mui/material";
 import { Box, height } from "@mui/system";
 import React from "react";
 
@@ -19,6 +19,7 @@ export default function Profile() {
             margin: "auto",
             border: "1px solid red",
             marginTop: "15px",
+            position: "relative"
           }}
         >
             <Box sx={{width:"100%" , height:"150px",position:"relative"}}>
@@ -43,6 +44,18 @@ export default function Profile() {
                  </Box>
                 </Box>
             </Box>
+            <input 
+            placeholder='What do you think ?'
+            style={{position:"absolute",top:"65%" , left:"5%" ,width:"80%", height: "70px",
+            outline: "none",
+            backgroundColor:"#fafafa",
+            border:"none",
+            padding:"10px",
+            borderRadius:"8px",
+        color:"black"}}
+            
+        
+            />
         </Box>
       </Box>
     </>
