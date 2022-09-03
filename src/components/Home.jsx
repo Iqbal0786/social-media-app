@@ -33,7 +33,7 @@ export default function Home() {
       </AppBar>
 
         {/* main content box */}
-        <Box sx={{width:"100%" , height:"800px" ,border:"1px solid red",marginTop:"120px" ,display:"flex" , justifyContent:"space-between" ,gap:"10px" , padding:"20px",marginBottom:"300px"}}>
+        <Box sx={{width:"100%" , height:"800px" ,marginTop:"120px" ,display:"flex" , justifyContent:"space-between" ,gap:"10px" , padding:"20px",marginBottom:"300px"}}>
 
          <FriendsAndGroup/>
          <MainContent/>
